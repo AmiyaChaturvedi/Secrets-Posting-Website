@@ -1,0 +1,66 @@
+body {
+    background-color: #E8ECEF;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: rgb(88, 88, 88);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.icon-secrets {
+    margin-top: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+span {
+    margin-left: 5px;
+}
+
+.container a {
+    margin: 5px;
+}
+
+
+/* .form {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 450px;
+    padding: 8px;
+    margin: 0 500px;
+} */
+
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.top {
+    margin-bottom: 5px;
+}
+
+.bottom {
+    margin-bottom: 15px;
+}

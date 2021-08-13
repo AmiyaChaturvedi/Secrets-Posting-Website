@@ -1,0 +1,49 @@
+<%- include('partials/header') %>
+
+    <div class="">
+        <div class="col-md-3 m-auto">
+            <h2 class="display-5">Register Here</h2>
+
+            <!-- Makes POST request to /register route -->
+            <form action="/register" method="POST">
+                <div class="form-floating">
+                    <input type="email" class="form-control top" name="username" id="floatingInput" placeholder="name@example.com" autofocus required autocomplete="off">
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control bottom" name="password" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <!-- <div class="checkbox mb-3">
+                                <label>
+                                    <input type="checkbox" value="remember-me"> Remember me
+                                </label>
+                            </div> -->
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-dark btn-lg">Register</button></div>
+
+
+
+            </form>
+
+            <hr>
+
+            <div class="card social-block">
+                <div class="card-body">
+                    <a class="btn btn-block " href="/auth/google" role="button">
+                        <i class="fab fa-google"></i> <span>Sign Up with Google</span>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <%- include('partials/header') %>

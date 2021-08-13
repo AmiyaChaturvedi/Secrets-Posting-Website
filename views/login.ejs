@@ -1,0 +1,53 @@
+<%- include('partials/header') %>
+
+    <div class="">
+        <div class="col-md-3 m-lg-auto">
+
+            <h2 class="display-5">Login</h2>
+
+            <!-- Makes POST request to /login route -->
+            <form action="/login" method="POST">
+                <div class="form-floating">
+                    <input type="email" class="form-control " name="username" id="floatingInput" aria-describedby="emailHelp" placeholder="name@example.com" autofocus required autocomplete="off">
+                    <label for="floatingInput">Email</label>
+                    <div id="emailHelp" class="form-text top">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control bottom" name="password" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <div class="form-check mb-3">
+                    <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-dark btn-lg">Login</button></div>
+            </form>
+            <hr>
+            <div class="card social-block">
+                <div class="card-body">
+                    <a class="btn btn-block" href="/auth/google" role="button">
+                        <i class="fab fa-google"></i> <span>Sign In with Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <a class="btn btn-block" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+            Sign In with Google
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+
+
+
+    <%- include('partials/footer') %>
